@@ -2,19 +2,27 @@
 A Python automation script that uses PyAutoGUI to interact with your chat UI (like WhatsApp Web), captures the latest messages, and uses OpenAI's GPT model to generate a smart, funny, Hindi-English response in the character.
 1. Features:
 Automates UI actions like mouse clicks and text selection using pyautogui
+
 Uses pyperclip to read clipboard contents
+
 Uses OpenAI's gpt-3.5-turbo model for generating chat responses
+
 Custom personality-based responses 
+
 Runs in a loop to monitor and reply when specific users send messages
 
-2. How It Works
+3. How It Works
 Opens the chat window using pyautogui.click
+
 Selects and copies the chat using dragTo and ctrl+c
-Checks if the last message is from a specific sender (e.g., "Rohan Das")
+
+Checks if the last message is from a specific sender
+
 If yes, sends the chat history to OpenAI and gets a witty response
+
 Pastes the response in the input box and presses enter.
 
-3. Project Structure
+5. Project Structure
 
 .
 ├── bot.py                  # Main bot script
@@ -24,5 +32,7 @@ Pastes the response in the input box and presses enter.
 
  4. Credits
 OpenAI GPT-3.5 Turbo
+
 PyAutoGUI
+
 pyperclip
