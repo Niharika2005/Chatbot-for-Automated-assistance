@@ -26,8 +26,11 @@ Pastes the response in the input box and presses enter.
 
 .
 ├── bot.py                  # Main bot script
+
 ├── README.md               # Project documentation
+
 ├── requirements.txt        # Python package dependencies
+
 └── .env (optional)         # Store secrets like API keys
 
  4. Credits
